@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "HavaKart";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hava Durumu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Flatty Weather Report template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="~/webhava/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <script src="~/webhava/js/jquery-2.1.4.min.js"></script>
+    <script src="~/webhava/js/skycons.js"></script>
+</head>
+<body>
+    <h1>HAVA DURUMU</h1>
+    @*hava durumu bilgilerini sağlamak için widget.min.js dosyasını kullanarak bir harici servise bağlanarak günceller*@
+    <div class="w3ls-weather">
+        <a class="weatherwidget-io" href="https://forecast7.com/tr/39d9332d86/ankara/" data-label_1="ANKARA" data-label_2="HAVA DURUMU" data-theme="original">ANKARA HAVA DURUMU</a>
+        <script>
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+        </script>
+
+        <br />
+        <br />
+
+        <a class="weatherwidget-io" href="https://forecast7.com/tr/41d0128d98/istanbul/" data-label_1="İSTANBUL" data-label_2="HAVA DURUMU" data-theme="original">İSTANBUL HAVA DURUMU</a>
+        <script>
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+        </script>
+
+        <br />
+        <br />
+
+        <a class="weatherwidget-io" href="https://forecast7.com/tr/38d4227d14/izmir/" data-label_1="İZMIR" data-label_2="HAVA DURUMU" data-theme="original">İZMIR HAVA DURUMU</a>
+        <script>
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+        </script>
+
+        <br />
+        <br />
+
+        <a class="weatherwidget-io" href="https://forecast7.com/tr/39d9334d73/yozgat-merkez/" data-label_1="YOZGAT MERKEZ" data-label_2="HAVA DURUMU" data-theme="original">YOZGAT MERKEZ HAVA DURUMU</a>
+        <script>
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+        </script>
+
+        <br />
+        <br />
+
+        <a class="weatherwidget-io" href="https://forecast7.com/tr/40d8529d88/kocaeli/" data-label_1="KOCAELI" data-label_2="HAVA DURUMU" data-theme="original">KOCAELI HAVA DURUMU</a>
+        <script>
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+        </script>
+
+        <br />
+        <br />
+
+        <a class="weatherwidget-io" href="https://forecast7.com/tr/39d7730d53/eskisehir/" data-label_1="ESKIŞEHIR" data-label_2="HAVA DURUMU" data-theme="original">ESKIŞEHIR HAVA DURUMU</a>
+        <script>
+            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+        </script>
+
+    </div>
+    <div class="copyw3-agile">
+        <p> © 2024 Kütüphane Yönetim Sistemi</p>
+    </div>
+</body>
+</html>
